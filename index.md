@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "Recent Posts"
+title: "Vegard Andreas Larsen"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: typewriter.jpg
+  feature: header.jpg
 ---

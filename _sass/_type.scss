@@ -43,7 +43,17 @@ blockquote, blockquote p {  font-size: $fs2; }
 .archive input { font-size: $fs2}
 
 
+sup {
+  font-size: $fs5;
+  vertical-align: super;
+}
+.post .footnotes ol li, .footnotes p {
+  font-size: $fs5;
+}
 
+abbr {
+  border-bottom: 1px dotted $grey-medium;
+}
 
 
 

@@ -1,26 +1,19 @@
 ---
 layout: post
 permalink: /about/index.html
-title: About the Theme
-description: Balzac is a new, fluid & responsive theme for Jekyll (and AnchorCMS). It's gloriously beautiful and suited to long form. Built on a SCSS foundation, it's organized and awesome.
-tags: [about, Jekyll, theme, responsive]
+title: Who am I?
+description: Vegard Andreas Larsen. Software engineer. Founder. Occasional idiot.
+tags: [about]
 image:
-  feature: soft-trees.jpg
+  feature: header.jpg
 ---
 
-This is built on Semantic.gs grid framework which I edited a bit to make it fluid. I hope you enjoy using, forking, whatevering this theme as much as I did making it. 
+I have had plenty of tries at writing an "about me"-page. I just never seem to make it as interesting or funny as I'd like.
 
-### Features
-* flexible, uses max-width for responsive goodness
-* responsive drop down menu
-* retina images using @2x
-* post loop in the footer showing 3 latest post
-* custom portfolio page for case studies
+When I was 8, I read my first programming book. It was on `BASIC`, and I seem to remember it took me a year from reading that book until I actually tried programming on a computer for the first time. Since then, I've graduated through Turbo Pascal, Visual Basic, Delphi, PHP, C/C++ and C# &mdash; just to name the few I felt I got a hang of.
 
-### Acknowledgements
-I utilized my own HTML templates, but had no prior knowledge of liquid nor the required Jekyll system file format. I took [Michael Rose](http://twitter.com/mmistakes)'s theme [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/). Having a prebuilt archive and the YAML front-matter already set up was a great help. 
+In between I've gotten a Master's degree in Computer Science from NTNU, where [my thesis](http://daim.idi.ntnu.no/masteroppgaver/004/4014/masteroppgave.pdf) was about audio fingerprinting.
 
- The lovely font shown here is Calendas. For full splendor on your blog, I suggest you [head over and buy that](http://calendasplus.com/). The full family is 3 weights and costs $3. Many thanks to Daniel Bruce for the wonderful Entypo icons. Those can be picked up at [entypo.com](http://entypo.com), but are included with the source files. It's also <b>retina ready</b> via retina.js. Check out how that works over at [retinajs.com](http://retinajs.com).
+At my day-job[^1] I am a co-founder, co-owner and CTO of [Digital Creations AS](http://www.digitalcreations.no). We do everything from developing software and services which we sell directly to end users, through developing custom websites for clients. We even have a little side-gig with drone photography and filming.
 
-### The Name
-Balzac was a famous writer, known for his beautiful prose. I read some Balzac in school, but mostly feel comfort in the name of my favorite coffee shop in Stratford, Ontario. 
+[^1]: Sometimes it stretches well into the evenings and weekends.
