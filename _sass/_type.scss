@@ -18,7 +18,7 @@ p {
     line-height: 1.4em;
 }
 
-.post ul li {
+.post ul li, .post ol li {
     font-size: $fsp;
     line-height: $lh;
     margin-bottom: $lh/3;
@@ -71,10 +71,10 @@ p {
     line-height: 1.4em;
 }
 
-.post ul li {
-    font-size: $fs5;
-    line-height: $lhsmall;
-    margin-bottom: $lhsmall/2;
+.post ul li, .post ol li {
+    font-size: $fs5 !important;
+    line-height: $lhsmall !important;
+    margin-bottom: $lhsmall/2 !important;
 }
 
 h1,.h1 {      font-size: $fs2; }
