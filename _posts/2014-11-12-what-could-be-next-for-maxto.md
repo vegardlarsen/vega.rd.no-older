@@ -1,7 +1,7 @@
 ---
 layout: post-light-feature
 title: "What could be next for MaxTo"
-description: "Maxto has looked much the same lately. Here's what might be coming."
+description: "MaxTo has looked much the same lately. Here's what might be coming."
 category: articles
 tags: [maxto]
 date: 2014-11-12
