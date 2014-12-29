@@ -13,3 +13,5 @@ I have recently been made aware that MaxTo was featured on Download.com, and wra
 I have known about Download.com's policies for quite a while, and while I personally have been avoiding it, I was unaware that MaxTo was being offered there. I have now sent in a support request to have MaxTo removed from their site effective immediately. Let's see how long it takes for them to remove it.
 
 Bundling software with crapware is a horrible practice, and I am quite frankly mad that Download.com does this without my permission. I've searched my e-mail archives and they have never notified me they were doing this.
+
+**Update** Two hours later I got a reply from their support, confirming they have disabled the CNet Installer for my company account. So it look like MaxTo won't need to be removed anyway. I wish most publishers would contact them regarding this.
