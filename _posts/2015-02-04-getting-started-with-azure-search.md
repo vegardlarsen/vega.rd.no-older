@@ -69,7 +69,7 @@ public async Task EnsureIndexesExistAsync()
 
 There is only one thing that stuck out here, namely that the **key fields** in the search index **has to be strings**. I only figured that out because `RedDog.Search` only takes a string when you are creating an `IndexOperation` (in the next snippet).
 
-The cool part about the code above is the `Analyzer()` call. The analyzer tells Azure Search how it should interpret the text it indexes. In my case, the text is in Norwegian, and the analyzer affects e.g. how stemming of words in queries work. E.g. if you in search for "numbers" with the default analyzer, it will also find results for "numbers". You need to explicitly set the language, as the rules for which endings can be removed from words is different from language to language. After you've set the analyzer, no extra work is required to make searches like this work.
+The cool part about the code above is the `Analyzer()` call. The analyzer tells Azure Search how it should interpret the text it indexes. In my case, the text is in Norwegian, and the analyzer affects e.g. how stemming of words in queries work. E.g. if you in search for "numbers" with the default analyzer, it will also find results for "number" and "numbering". You need to explicitly set the language, as the rules for which endings can be removed from words is different from language to language. After you've set the analyzer, no extra work is required to make searches like this work.
 
 The `IsFacetable()` call on the tags lets you pivot your results on tags. This is a cool feature that I didn't have a need for at the moment, but I decided to create the index properly in case I changed my mind later.
 
