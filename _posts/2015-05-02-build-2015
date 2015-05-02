@@ -1,0 +1,50 @@
+---
+layout: post-light-feature
+title: "Thoughts on //Build/ 2015"
+description: "Microsoft's yearly developer conference shows the way forward"
+category: articles
+tags: [build, microsoft]
+date: 2015-05-02
+image: 
+  feature: build2015.jpg
+---
+
+For the second year in a row I've been lucky enough to attend //Build/. At this conference, Microsoft shares its vision and focus for the next year, while showing developers previews of what they can expect in the coming year.
+
+This year the focus was mainly on the Universal Windows Platform, which is a very strong proposition for developers.
+
+# Universal Windows
+
+The thought of developing a single app that runs on everything from a phone to a big-screen TV (through Xbox or Surface Hub) is enticing. Gone are the days when you had to write a custom view layer per platform.
+
+When writing a universal app, you create one set of XAML that you change by applying styles using responsive breakpoints. This ensures that the app looks consistent across devices, and makes it a lot easier on the developer. One project, build, package and deploy to all.
+
+# HoloLens and Windows Holographic
+
+The biggest disappointment of //Build/ was probably HoloLens. Don't misunderstand here, I believe holograms are a brilliant idea.
+
+The disappointment came from the rumors preceding //Build/ and the fact that Microsoft in the keynote videos built on that hype. The videos gave the impression that this year's give-away would be a HoloLens, and you could feel the disappointment in the keynote room as thousands realized that was not the case.
+
+When Microsoft said the brought "hundreds" of HoloLenses for us to try, I was also fully expecting to get to try one out during the conference, instead I only got a 5-minute presentation that really didn't show us anything new.
+
+For the people who were lucky enough to try one, the rumor has it the holographic field of view was too small to be usable.
+
+The fact that so few are allowed to try it out, and that people are disappointed about the field of view, makes me believe that the first generation of HoloLens will be disappointing. That probably won't stop me from getting one, though (depending on the price).
+
+# Tooling enhancements
+
+The recent release candidate of Visual Studio 2015 shows great promise &mdash; in particular I think the improved debugging experience is very exciting. Micro-benchmarking as you step through code, being able to move the instruction pointer easily, and an inline editor for conditional breakpoints is awesome.
+
+Roslyn will change a lot. With the current go-live license of RC2, I am looking forward to starting to use it. I attended sessions on writing your own code analyzer with code fixes, and the abstract syntax tree visualizer makes it look easy to create your own should you need to. Being able to distribute your analyzers and code fixes as Nuget packages is also a big win.
+
+ASP.NET 5 also seems to solve quite a few of the pain points we've had before. First of all, being able to use bower for client-side libraries is huge. Then, the many small tooling improvements are also a big deal. There really is too much to cover here and I don't feel that I've understood enough of it yet, but in general this is good stuff!
+
+# Cloud
+
+Microsoft is make quite a few incremental improvements to Azure. The renaming/evolution of Azure Websites/Mobile services/etc into Azure App Service seems to be more than just a rename.
+
+I haven't had a chance to do a deep dive into all of this, but it seems that supporting the Swagger protocol (which is quite easy), opens up a host of possibilities with the new API Apps and Logic Apps.
+
+# In conclusion
+
+Same as last year, this conference brought a lot of news. It works as a great inspiration for what is possible to do on Microsoft's platform, and shows that Microsoft is really trying to open up as much as they can.
