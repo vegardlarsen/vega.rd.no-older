@@ -26,7 +26,7 @@ If you do this on any earlier version of Windows, the window aligns perfectly to
 
 ![Window apparently aligned 7 pixels from the left-hand side of the screen](/images/2015-07-25/windows10bug.png) 
 
-After quite a bit of soul-searching, Spy++-ing and image editing, this is the conclusion: In Windows 10, the window borders are invisible (meaning transparent), but **they are still there**.
+Yes, that image shows the left-hand side of my monitor. The window is visually aligned 7 pixels from the left. After quite a bit of soul-searching, Spy++-ing and image editing, this is the conclusion: In Windows 10, the window borders are invisible (meaning transparent), but **they are still there**.
 
 You can easily see this for yourself, by opening e.g. Notepad and hovering the mouse just outside what you perceive as the border. You'll see the cursor change to its resizing icon, meaning the window border is there, but it is invisible.
 
